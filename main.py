@@ -25,12 +25,14 @@ if __name__ == '__main__':
 
     if all_chars[chars_list] == numbers:
       nr_numbers -= 1
+      
       if nr_numbers == 0:
         all_chars.pop(chars_list)
         continue
 
     if all_chars[chars_list] == symbols:
       nr_symbols -= 1
+      
       if nr_symbols == 0:
         all_chars.pop(chars_list)
         continue
