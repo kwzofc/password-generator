@@ -1,5 +1,5 @@
 import random
-from character import letters, numbers, symbols
+from characters import letters, numbers, symbols
 
 print('Welcome to the Password Generator!')
 
